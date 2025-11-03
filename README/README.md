@@ -1,6 +1,6 @@
 # 🧠 BEA Calculator - Web Version
 
-> **Behavioral Emotional Architecture (BEA)** - Standalone Web Application
+> **Binary Emotional Architecture (BEA)** - Standalone Web Application
 
 A revolutionary calculator that treats emotions as computational entities, allowing users to perform mathematical operations on emotional states. Built on the foundational **BEA principle that 1+1=3** - where emotional combinations create emergent outcomes that transcend simple addition. Experience how Curiosity ⊕ Excitement = Wonder!
 
