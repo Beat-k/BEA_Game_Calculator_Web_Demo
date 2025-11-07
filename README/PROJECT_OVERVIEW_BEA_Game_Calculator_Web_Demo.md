@@ -2,12 +2,12 @@
 
 ## 🎯 Project Overview
 
-The **BEA Calculator** is a completed standalone web application that successfully demonstrates how emotions can be treated as computational data and processed using pure mathematical operations. This project showcases **Behavioral Emotional Architecture (BEA)**, a framework that transforms abstract emotional concepts into concrete, calculable entities using authentic 1 ⊕ 1 ≠ 3 mathematics.
+The **BEA Calculator** is a completed standalone web application that successfully demonstrates how emotions can be treated as computational data and processed using pure mathematical operations. This project showcases **Behavioral Emotional Architecture (BEA)**, a patent-protected framework that transforms abstract emotional concepts into concrete, mathematically computable entities using authentic 1 ⊕ 1 ≠ 3 emergence principles.
 
 ## 🧠 What It Does
 
 ### Core Concept
-An interactive calculator that treats emotions like numbers in a mathematical equation, built on the foundational BEA principle that **1 ⊕ 1 ≠ 3** - where emotional combinations create emergent outcomes that transcend simple addition. Instead of adding `2 + 3 = 5`, users can combine emotional states like `Curiosity ⊕ Excitement = Wonder` and discover how different emotions interact, transform, and influence each other through symbolic emergence.
+An interactive calculator that treats emotions like numbers in a mathematical equation, built on the foundational BEA principle that **1 ⊕ 1 ≠ 3** - where emotional combinations create emergent outcomes that transcend simple addition. Instead of adding `2 + 3 = 5`, users can combine emotional states like `Curiosity ⊕ Engagement ≠ Strain` and discover how different emotions interact, transform, and influence each other through symbolic emergence.
 
 ### Key Innovation
 **Emotions as Data Structures**: Each emotional state (E[0] through E[31]) is a computational entity with properties like intensity level, visual characteristics, and interaction weights. This allows for predictable, repeatable emotional calculations.
