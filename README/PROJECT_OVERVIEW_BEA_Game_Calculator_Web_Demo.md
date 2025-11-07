@@ -7,17 +7,17 @@ The **BEA Calculator** is a completed standalone web application that successful
 ## 🧠 What It Does
 
 ### Core Concept
-An interactive calculator that treats emotions like numbers in a mathematical equation, built on the foundational BEA principle that **1 ⊕ 1 ≠ 3** - where emotional combinations create emergent outcomes that transcend simple addition. Instead of adding `2 + 3 = 5`, users can combine emotional states like `Curiosity ⊕ Engagement ≠ Strain` and discover how different emotions interact, transform, and influence each other through symbolic emergence.
+An interactive calculator that treats emotions like numbers in a mathematical equation, built on the foundational BEA principle that **1 ⊕ 1 ≠ 3** - where emotional combinations create emergent outcomes that transcend simple addition. Instead of adding `2 + 3 = 5`, users can combine emotional states like `Curiosity ≠ Engagement ≠ Elevation` and discover how different emotions interact, transform, and influence each other through symbolic emergence.
 
 ### Key Innovation
 **Emotions as Data Structures**: Each emotional state (E[0] through E[31]) is a computational entity with properties like intensity level, visual characteristics, and interaction weights. This allows for predictable, repeatable emotional calculations.
 
 **Pure Mathematical Implementation**: All emotional combinations use authentic BEA formulas:
 - **Combust (⊕)**: `(a + b) % 32` - modulo arithmetic creating emergent outcomes
+- **Resonant Contrast (≠)**: `(16 + |a - b|) % 32` - tension-based emergence in ascension layer
 - **Balance (⊖)**: `floor((a + b) / 2)` - mathematical averaging for equilibrium
 - **Dissolve (⊗)**: `max(min(a,b) - 1, 0)` - reduction with bounds checking
 - **Amplify (⨀)**: `min(max(a,b) + 2, 31)` - intensification with bounds checking
-- **Resonant Contrast (≠)**: Tension-based emergence - creative breakthrough from contrast
 
 No hard-coded results exist - every outcome emerges naturally from these mathematical principles.
 

@@ -846,9 +846,9 @@
                 case '⊕': // Combust - 1 ⊕ 1 ≠ 3 principle: Modulo arithmetic creates emergent outcomes
                     return allStates[(state1.id + state2.id) % 32] || state1;
                 case '≠': // Resonant Contrast - Productive creative tension
-                    // Simplified: Create tension that leads to emergence
+                    // Always creates emergence through tension-based transformation
                     const tensionResult = Math.abs(state1.id - state2.id);
-                    const emergenceBase = tensionResult > 8 ? 16 : 8; // Higher tension leads to emergence
+                    const emergenceBase = 16; // Emergence layer for resonant contrast
                     return allStates[(emergenceBase + tensionResult) % 32] || allStates[22]; // Default to Inspiration
                 case '⊖': // Balance - Mathematical averaging creates equilibrium
                     return allStates[Math.floor((state1.id + state2.id) / 2)] || state1;

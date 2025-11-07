@@ -161,9 +161,9 @@ namespace BEAFramework
         /// </summary>
         private static BEABit ResonantContrast(BEABit stateA, BEABit stateB)
         {
-            // Calculate tension between states - higher difference leads to emergence
+            // Calculate tension between states - always creates emergence
             int tensionValue = Mathf.Abs(stateA.id - stateB.id);
-            int emergenceBase = tensionValue > 8 ? 16 : 8; // Higher tension leads to emergence layer
+            int emergenceBase = 16; // Emergence layer for resonant contrast
             int resultId = (emergenceBase + tensionValue) % 32;
 
             // Tension creates higher energy but also instability
