@@ -7,7 +7,7 @@ A revolutionary calculator that treats emotions as computational entities, allow
 ## ✨ Features
 
 - **32 Emotional States**: Complete spectrum from E[0] Neutral to E[31] Peace
-- **4 Mathematical Operators**: Combust (⊕), Balance (⊖), Amplify (⨀), Dissolve (⦸)
+- **5 Mathematical Operators**: Combust (⊕), Resonant Contrast (≠), Balance (⊖), Dissolve (⊗), Amplify (⨀)
 - **Self-Contained**: Single HTML file, no dependencies required
 - **Built-in AI Assistant**: Helpful responses without external APIs
 - **Healing Guide**: Interactive emotional wellness combinations
@@ -44,43 +44,53 @@ Each emotion is a computational entity with:
 
 ### Mathematical Operators (Pure BEA Formulas)
 - **⊕ Combust**: Modulo arithmetic `(a + b) % 32` - creates emergent outcomes
+- **≠ Resonant Contrast**: Productive creative tension - generates breakthrough emergence
 - **⊖ Balance**: Mathematical averaging `(a + b) / 2` - creates equilibrium
+- **⊗ Dissolve**: Reduction formula `max(min(a,b) - 1, 0)` - neutralizes emotions
 - **⨀ Amplify**: Intensification formula `max(a,b) + 2` - amplifies emotional energy
-- **⦸ Dissolve**: Reduction formula `max(min(a,b) - 1, 0)` - neutralizes emotions
 
 ## 📊 Complete Emotional Spectrum
 
-| Category | States | Examples |
-|----------|--------|----------|
-| Baseline | 1 state | 😐 Neutral |
-| Cognitive | 5 states | 🤔 Curiosity, 🧐 Interest, 💡 Clarity |
-| Peaceful | 5 states | 😊 Calmness, 🕊️ Serenity, ☮️ Peace |
-| Energetic | 2 states | 🎉 Excitement, 🎨 Inspiration |
-| Empowered | 4 states | 💪 Strength, 🛡️ Valor, 👑 Confidence |
-| Transcendent | 4 states | ✨ Wonder, 🌟 Bliss, 🔮 Transcendence |
-| Positive | 3 states | 😄 Joy, 🙏 Gratitude, 🌱 Hope |
-| Connected | 2 states | 🤗 Empathy, ❤️ Love |
-| Melancholic | 2 states | 😢 Sadness, 🌧️ Melancholy |
-| Intense | 2 states | 😡 Anger, 🌹 Passion |
-| Protective | 1 state | 😨 Fear |
-| Tense | 1 state | 😵‍💫 Anxiety |
+| Layer | States | Intensity | Description |
+|-------|--------|-----------|-------------|
+| **Foundation** | 8 states | 0-1 | Low-intensity, grounding, baseline emotional presence |
+| **Active** | 8 states | 2-4 | Moderate-intensity emotional states with directional push |
+| **Emergence** | 8 states | 5-7 | High-level emotional computation — creative, intuitive, visionary |
+| **Ascension** | 8 states | 8-10 | Ultra-high emotional states for BEA Aura and 4D Audio |
+
+### Foundation Layer (E[0]-E[7])
+- **E[0] Neutral**, **E[1] Awareness**, **E[2] Calmness**, **E[3] Focus**
+- **E[4] Curiosity**, **E[5] Alertness**, **E[6] Expansion**, **E[7] Readiness**
+
+### Active Layer (E[8]-E[15])
+- **E[8] Engagement**, **E[9] Determination**, **E[10] Pressure**, **E[11] Adrenaline**
+- **E[12] Strain**, **E[13] Overfocus**, **E[14] Anxiety**, **E[15] Emotional Overload**
+
+### Emergence Layer (E[16]-E[23])
+- **E[16] Vision**, **E[17] Insight**, **E[18] Intuition**, **E[19] Alignment**
+- **E[20] Elevation**, **E[21] Resonance**, **E[22] Inspiration**, **E[23] Revelation**
+
+### Ascension Layer (E[24]-E[31])
+- **E[24] Unity**, **E[25] Bliss**, **E[26] Transcendence**, **E[27] Illumination**
+- **E[28] Ascension**, **E[29] Emergence**, **E[30] Pure Presence**, **E[31] BEA State**
 
 ## 🎮 Example Calculations
 
 ```
-🤔 Curiosity ⊕ 🎉 Excitement = ✨ Wonder
-😡 Anger ⊖ 😊 Calmness = 💪 Strength  
-😢 Sadness ⨀ 🌧️ Melancholy = Deep reflection
-😨 Fear ⦸ 👑 Confidence = Reduced anxiety
+🤔 Curiosity ⊕ 🎉 Excitement = ✨ Wonder (1+1=3 emergence)
+😡 Anger ⊖ 😊 Calmness = 💪 Strength (mathematical equilibrium)
+🤯 Confusion ⨀ 💡 Clarity = 🔮 Transcendence (intensified insight)
+😢 Sadness ⊗ ☮️ Peace = 🌅 Enlightenment (state reduction)
+😨 Fear ≠ 🛡️ Valor = 👑 Confidence (creative tension resolution)
 ```
 
 ## 🩹 Healing Combinations
 
-The calculator includes special healing combinations for emotional wellness:
-- **😡 → 💪 Anger Relief**: Transform frustration into strength
-- **😢 → ☮️ Sadness Relief**: Convert grief into peace
-- **😵‍💫 → 😊 Anxiety Relief**: Change worry into calmness
-- **😨 → 👑 Fear Relief**: Build confidence from uncertainty
+The calculator includes special healing combinations for emotional wellness using authentic BEA mathematics:
+- **😡 → 🧐 Anger Relief**: Anger ⊕ Empathy = Interest (E[3])
+- **😢 → 🌅 Sadness Relief**: Sadness ⊖ Peace = Enlightenment (E[20])
+- **😵‍💫 → 🤔 Anxiety Relief**: Anxiety ⊗ Calmness = Curiosity (E[1])
+- **😨 → 👑 Fear Relief**: Fear ⊕ Valor = Confidence (E[26])
 
 ## 🎯 Use Cases
 
