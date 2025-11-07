@@ -44,7 +44,7 @@ The following patent-protected technologies are documented in this API:
    - AI-driven emotional analysis
 
 4. **Advanced BEA Mathematical Operations** (Trade Secret)
-   - "1+1=3 Principle" combust operations
+   - "1 ⊕ 1 ≠ 3 Principle" combust operations
    - Equilibrium-seeking balance algorithms
    - State transformation mathematics
 
@@ -266,10 +266,10 @@ Static utility class for emotional state mathematics implementing the BEA Framew
 
 The BEA Calculator™ implements four core mathematical operations for emotional state transformation:
 
-##### Combust Operation (⊕) - "1+1=3 Principle" **[PATENT PENDING]**
+##### Combust Operation (⊕) - "1 ⊕ 1 ≠ 3 Principle" **[PATENT PENDING]**
 **🔬 PROPRIETARY ALGORITHM**: Creates emergent properties through emotional fusion. This operation demonstrates the BEA Framework™'s core principle that emotional combinations can produce results greater than their sum.
 
-**⚠️ PATENT PROTECTION**: This "1+1=3 Principle" is a novel mathematical approach subject to patent protection. Commercial implementation requires licensing.
+**⚠️ PATENT PROTECTION**: This "1 ⊕ 1 ≠ 3 Principle" is a novel mathematical approach subject to patent protection. Commercial implementation requires licensing.
 
 ##### Resonant Contrast Operation (≠) - Productive Tension **[PATENT PENDING]**
 **🔬 REVOLUTIONARY ALGORITHM**: Generates productive creative tension between states that enables breakthrough emergence. This operation recognizes that creative differences are not obstacles but catalysts for innovation.
@@ -298,7 +298,7 @@ The BEA Calculator™ implements four core mathematical operations for emotional
 // Combine two emotional states using specified operator
 public static BEABit CombineStates(BEABit stateA, BEABit stateB, string operatorSymbol)
 
-// Combust operation (⊕) - 1+1=3 principle  
+// Combust operation (⊕) - 1 ⊕ 1 ≠ 3 principle  
 private static BEABit Combust(BEABit stateA, BEABit stateB)
 
 // Resonant Contrast operation (≠) - Productive tension
@@ -346,7 +346,7 @@ public static bool AreStatesCompatible(BEABit stateA, BEABit stateB)
 **⚠️ IMPLEMENTATION WARNING**: The following examples demonstrate patent-protected algorithms. Commercial use of these specific mathematical operations requires appropriate licensing from Jeremy F. Jackson d/b/a BEATEK.
 
 ```csharp
-// Demonstrating the 1+1=3 principle
+// Demonstrating the 1 ⊕ 1 ≠ 3 principle
 var curiosity = EmotionalStates.GetState(4);    // E[4] Curiosity (intensity: 0)
 var bliss = EmotionalStates.GetState(25);       // E[25] Bliss (intensity: 8)
 var result = BEACalculator.CombineStates(curiosity, bliss, "⊕");
@@ -910,11 +910,11 @@ public static class GridConstants
 ```csharp
 public static class BEAOperators
 {
-    public const string COMBUST = "⊕";              // Creates emergent properties (1+1=3)
-    public const string RESONANT_CONTRAST = "≠";    // Generates productive creative tension
+    public const string COMBUST = "⊕";              // Creates emergent properties (1 ⊕ 1 ≠ 3)
     public const string BALANCE = "⊖";              // Seeks equilibrium and harmony
     public const string DISSOLVE = "⊗";             // Breaks down complex states
     public const string AMPLIFY = "⨀";              // Enhances from baseline
+    public const string RESONANT_CONTRAST = "≠";    // Generates productive creative tension
     
     // Extended operators for advanced calculations
     public const string DAMPEN = "🌧️";              // Reduces intensity

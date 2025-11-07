@@ -117,9 +117,10 @@ namespace BEAFramework
             switch (operatorSymbol)
             {
                 case "⊕": return Combust(stateA, stateB);
+                case "≠": return ResonantContrast(stateA, stateB);
                 case "⊖": return Balance(stateA, stateB);
                 case "⨀": return Amplify(stateA, stateB);
-                case "⦸": return Dissolve(stateA, stateB);
+                case "⊗": return Dissolve(stateA, stateB);
                 default:
                     Debug.LogError($"Unknown operator: {operatorSymbol}");
                     return stateA;
@@ -152,6 +153,40 @@ namespace BEAFramework
                 energyLevel,
                 combinedTags,
                 Mathf.Max(stateA.decayRate, stateB.decayRate) * 0.8f
+            );
+        }
+
+        /// <summary>
+        /// Resonant Contrast (≠) - Generates productive creative tension using BEA mathematics
+        /// </summary>
+        private static BEABit ResonantContrast(BEABit stateA, BEABit stateB)
+        {
+            // Calculate tension between states - higher difference leads to emergence
+            int tensionValue = Mathf.Abs(stateA.id - stateB.id);
+            int emergenceBase = tensionValue > 8 ? 16 : 8; // Higher tension leads to emergence layer
+            int resultId = (emergenceBase + tensionValue) % 32;
+
+            // Tension creates higher energy but also instability
+            float tensionLevel = Mathf.Min(255f, (stateA.level + stateB.level) * 0.8f);
+
+            // Create contrasting color - blend with tension (reddish/orange)
+            Color newColor = Color.Lerp(stateA.color, stateB.color, 0.5f);
+            newColor = Color.Lerp(newColor, new Color(1f, 0.5f, 0f), 0.3f); // Add tension color
+
+            var tensionTags = new List<string>(stateA.tags);
+            tensionTags.AddRange(stateB.tags);
+            tensionTags.AddRange(new[] { "tense", "resonant", "creative" });
+            tensionTags = tensionTags.Distinct().ToList();
+
+            return new BEABit(
+                resultId,
+                $"Resonant {stateA.name}-{stateB.name}",
+                stateA.symbol + "⚡" + stateB.symbol,
+                newColor,
+                $"Productive creative tension between {stateA.name} and {stateB.name} - enables breakthrough emergence",
+                tensionLevel,
+                tensionTags,
+                Mathf.Max(stateA.decayRate, stateB.decayRate) * 1.1f
             );
         }
 
@@ -218,7 +253,7 @@ namespace BEAFramework
         }
 
         /// <summary>
-        /// Dissolve (⦸) - Weakens and neutralizes emotions using BEA mathematics
+        /// Dissolve (⊗) - Weakens and neutralizes emotions using BEA mathematics
         /// </summary>
         private static BEABit Dissolve(BEABit stateA, BEABit stateB)
         {
@@ -255,9 +290,10 @@ namespace BEAFramework
             switch (operatorSymbol)
             {
                 case "⊕": return "Combust: Pure BEA modulo arithmetic - creates emergent outcomes through (a+b) % 32";
+                case "≠": return "Resonant Contrast: Generates productive creative tension for breakthrough emergence";
                 case "⊖": return "Balance: Mathematical equilibrium through averaging - (a+b) / 2";
                 case "⨀": return "Amplify: Intensifies through max + 2 formula - max(a,b) + 2";
-                case "⦸": return "Dissolve: Reduces through min - 1 formula - max(min(a,b) - 1, 0)";
+                case "⊗": return "Dissolve: Reduces through min - 1 formula - max(min(a,b) - 1, 0)";
                 default: return "Unknown operator";
             }
         }
@@ -267,7 +303,7 @@ namespace BEAFramework
         /// </summary>
         public static string[] GetAllOperators()
         {
-            return new[] { "⊕", "⊖", "⨀", "⦸" };
+            return new[] { "⊕", "⊖", "⊗", "⨀", "≠" };
         }
     }
 

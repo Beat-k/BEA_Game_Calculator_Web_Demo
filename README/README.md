@@ -2,12 +2,12 @@
 
 > **Binary Emotional Architecture (BEA)** - Standalone Web Application
 
-A revolutionary calculator that treats emotions as computational entities, allowing users to perform mathematical operations on emotional states. Built on the foundational **BEA principle that 1+1=3** - where emotional combinations create emergent outcomes that transcend simple addition. Experience how Curiosity ⊕ Excitement = Wonder!
+A revolutionary calculator that treats emotions as computational entities, allowing users to perform mathematical operations on emotional states. Built on the foundational **BEA principle that 1 ⊕ 1 ≠ 3** - where emotional combinations create emergent outcomes that transcend simple addition. Experience how Curiosity ⊕ Excitement = Wonder!
 
 ## ✨ Features
 
 - **32 Emotional States**: Complete spectrum from E[0] Neutral to E[31] Peace
-- **5 Mathematical Operators**: Combust (⊕), Resonant Contrast (≠), Balance (⊖), Dissolve (⊗), Amplify (⨀)
+- **5 Mathematical Operators**: Combust (⊕), Balance (⊖), Dissolve (⊗), Amplify (⨀), Resonant Contrast (≠)
 - **Self-Contained**: Single HTML file, no dependencies required
 - **Built-in AI Assistant**: Helpful responses without external APIs
 - **Healing Guide**: Interactive emotional wellness combinations
@@ -29,7 +29,7 @@ A revolutionary calculator that treats emotions as computational entities, allow
 
 ## 🎯 How It Works
 
-### The BEA 1+1=3 Principle
+### The BEA 1 ⊕ 1 ≠ 3 Principle
 BEA uses **emergent mathematics** where emotional combinations create outcomes that transcend simple addition:
 - **Pure Mathematical Formulas**: All results computed using authentic BEA arithmetic
 - **No Hard-Coded Outcomes**: Every combination follows consistent mathematical rules
@@ -44,10 +44,10 @@ Each emotion is a computational entity with:
 
 ### Mathematical Operators (Pure BEA Formulas)
 - **⊕ Combust**: Modulo arithmetic `(a + b) % 32` - creates emergent outcomes
-- **≠ Resonant Contrast**: Productive creative tension - generates breakthrough emergence
 - **⊖ Balance**: Mathematical averaging `(a + b) / 2` - creates equilibrium
 - **⊗ Dissolve**: Reduction formula `max(min(a,b) - 1, 0)` - neutralizes emotions
-- **⨀ Amplify**: Intensification formula `max(a,b) + 2` - amplifies emotional energy
+- **⨀ Amplify**: Intensification formula `min(max(a,b) + 2, 31)` - amplifies emotional energy
+- **≠ Resonant Contrast**: Productive creative tension - generates breakthrough emergence
 
 ## 📊 Complete Emotional Spectrum
 
@@ -77,7 +77,7 @@ Each emotion is a computational entity with:
 ## 🎮 Example Calculations
 
 ```
-🤔 Curiosity ⊕ 🎉 Excitement = ✨ Wonder (1+1=3 emergence)
+🤔 Curiosity ⊕ 🎉 Excitement = ✨ Wonder (1 ⊕ 1 ≠ 3 emergence)
 😡 Anger ⊖ 😊 Calmness = 💪 Strength (mathematical equilibrium)
 🤯 Confusion ⨀ 💡 Clarity = 🔮 Transcendence (intensified insight)
 😢 Sadness ⊗ ☮️ Peace = 🌅 Enlightenment (state reduction)
