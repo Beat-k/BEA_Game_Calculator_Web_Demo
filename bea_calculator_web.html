@@ -503,10 +503,10 @@
 
                 <div class="operators">
                     <button type="button" class="operator-btn" onclick="addOperator('⊕')" title="Combust - 1 ⊕ 1 ≠ 3 principle, creates emergent outcomes">⊕</button>
+                    <button type="button" class="operator-btn" onclick="addOperator('≠')" title="Resonant Contrast - Productive creative tension">≠</button>
                     <button type="button" class="operator-btn" onclick="addOperator('⊖')" title="Balance - Creates mathematical equilibrium">⊖</button>
                     <button type="button" class="operator-btn" onclick="addOperator('⊗')" title="Dissolve - State degradation and reduction">⊗</button>
                     <button type="button" class="operator-btn" onclick="addOperator('⨀')" title="Amplify - Enhancement and intensification">⨀</button>
-                    <button type="button" class="operator-btn" onclick="addOperator('≠')" title="Resonant Contrast - Productive creative tension">≠</button>
                 </div>
 
                 <div class="expression-display" id="expressionDisplay">
@@ -545,7 +545,7 @@
                     <h3>📚 Quick Guide</h3>
                     <div class="help-text">
                         <p><strong>Operators:</strong></p>
-                        <p>⊕ Combust | ⊖ Balance | ⊗ Dissolve | ⨀ Amplify | ≠ Resonant Contrast</p>
+                        <p>⊕ Combust | ⊖ Balance | ⨀ Amplify | ⦸ Dissolve</p>
                         <br>
                         <p>Click states → operators → calculate</p>
                     </div>
@@ -846,9 +846,9 @@
                 case '⊕': // Combust - 1 ⊕ 1 ≠ 3 principle: Modulo arithmetic creates emergent outcomes
                     return allStates[(state1.id + state2.id) % 32] || state1;
                 case '≠': // Resonant Contrast - Productive creative tension
-                    // Always creates emergence through tension-based transformation
+                    // Simplified: Create tension that leads to emergence
                     const tensionResult = Math.abs(state1.id - state2.id);
-                    const emergenceBase = 16; // Emergence layer for resonant contrast
+                    const emergenceBase = tensionResult > 8 ? 16 : 8; // Higher tension leads to emergence
                     return allStates[(emergenceBase + tensionResult) % 32] || allStates[22]; // Default to Inspiration
                 case '⊖': // Balance - Mathematical averaging creates equilibrium
                     return allStates[Math.floor((state1.id + state2.id) / 2)] || state1;
