@@ -54,9 +54,9 @@ Each emotion is a computational entity with:
 | Category | States | Examples |
 |----------|--------|----------|
 | Foundation | 8 states | 😐 Neutral, 🤔 Awareness, 😊 Calmness, 🧐 Focus |
-| Active | 8 states | 🤯 Engagement, 😢 Determination, 😡 Pressure, � Adrenaline |
-| Emergence | 8 states | 🌟 Vision, 🧘‍♂️ Insight, 🕊️ Intuition, � Alignment |
-| Ascension | 8 states | ☯️ Unity, 🤗 Bliss, � Transcendence, ✨ Illumination |
+| Active | 8 states | 🤯 Engagement, 😢 Determination, 😡 Pressure, 😨 Adrenaline |
+| Emergence | 8 states | 🌟 Vision, 🧘‍♂️ Insight, 🕊️ Intuition, 💡 Alignment |
+| Ascension | 8 states | ☯️ Unity, 🤗 Bliss, 🌌 Transcendence, ✨ Illumination |
 
 ## 🎮 Example Calculations
 
