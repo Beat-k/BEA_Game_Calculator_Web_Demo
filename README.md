@@ -7,7 +7,7 @@ A revolutionary calculator that treats emotions as computational entities, allow
 ## ✨ Features
 
 - **32 Emotional States**: Complete spectrum from E[0] Neutral to E[31] Peace
-- **4 Mathematical Operators**: Combust (⊕), Balance (⊖), Amplify (⨀), Dissolve (⊗)
+- **5 Mathematical Operators**: Combust (⊕), Resonant Contrast (≠), Balance (⊖), Dissolve (⊗), Amplify (⨀)
 - **Self-Contained**: Single HTML file, no dependencies required
 - **Built-in AI Assistant**: Helpful responses without external APIs
 - **Healing Guide**: Interactive emotional wellness combinations
@@ -44,26 +44,19 @@ Each emotion is a computational entity with:
 
 ### Mathematical Operators (Pure BEA Formulas)
 - **⊕ Combust**: Modulo arithmetic `(a + b) % 32` - creates emergent outcomes
+- **≠ Resonant Contrast**: Tension-based emergence - creative breakthrough from contrast
 - **⊖ Balance**: Mathematical averaging `(a + b) / 2` - creates equilibrium
-- **⨀ Amplify**: Intensification formula `max(a,b) + 2` - amplifies emotional energy
 - **⊗ Dissolve**: Reduction formula `max(min(a,b) - 1, 0)` - neutralizes emotions
+- **⨀ Amplify**: Intensification formula `min(max(a,b) + 2, 31)` - amplifies emotional energy
 
 ## 📊 Complete Emotional Spectrum
 
 | Category | States | Examples |
 |----------|--------|----------|
-| Baseline | 1 state | 😐 Neutral |
-| Cognitive | 5 states | 🤔 Curiosity, 🧐 Interest, 💡 Clarity |
-| Peaceful | 5 states | 😊 Calmness, 🕊️ Serenity, ☮️ Peace |
-| Energetic | 2 states | 🎉 Excitement, 🎨 Inspiration |
-| Empowered | 4 states | 💪 Strength, 🛡️ Valor, 👑 Confidence |
-| Transcendent | 4 states | ✨ Wonder, 🌟 Bliss, 🔮 Transcendence |
-| Positive | 3 states | 😄 Joy, 🙏 Gratitude, 🌱 Hope |
-| Connected | 2 states | 🤗 Empathy, ❤️ Love |
-| Melancholic | 2 states | 😢 Sadness, 🌧️ Melancholy |
-| Intense | 2 states | 😡 Anger, 🌹 Passion |
-| Protective | 1 state | 😨 Fear |
-| Tense | 1 state | 😵‍💫 Anxiety |
+| Foundation | 8 states | 😐 Neutral, 🤔 Awareness, 😊 Calmness, 🧐 Focus |
+| Active | 8 states | 🤯 Engagement, 😢 Determination, 😡 Pressure, � Adrenaline |
+| Emergence | 8 states | 🌟 Vision, 🧘‍♂️ Insight, 🕊️ Intuition, � Alignment |
+| Ascension | 8 states | ☯️ Unity, 🤗 Bliss, � Transcendence, ✨ Illumination |
 
 ## 🎮 Example Calculations
 
@@ -72,6 +65,7 @@ Each emotion is a computational entity with:
 😡 Anger ⊖ 😊 Calmness = 💪 Strength  
 😢 Sadness ⨀ 🌧️ Melancholy = Deep reflection
 😨 Fear ⊗ 👑 Confidence = Reduced anxiety
+🤯 Confusion ≠ 💡 Clarity = Creative breakthrough
 ```
 
 ## 🩹 Healing Combinations
@@ -117,7 +111,7 @@ BEA_Game_Calculator_Web_Demo_v1/
 
 ## 🎊 Project Status: SUCCESSFULLY COMPLETED
 
-**The BEA Calculator has achieved its vision**: A fully functional, mathematically pure emotional computation system that demonstrates the power of the 1+1=3 principle. With 32 emotional states, 4 authentic operators, and verified healing combinations, this project proves that emotions can be treated as precise computational entities.
+**The BEA Calculator has achieved its vision**: A fully functional, mathematically pure emotional computation system that demonstrates the power of the 1+1=3 principle. With 32 emotional states, 5 authentic operators, and verified healing combinations, this project proves that emotions can be treated as precise computational entities.
 
 **Impact Achieved:**
 - ✅ Mathematical emotional computation is now demonstrably possible using the 1 ⊕ 1 ≠ 3 principle
