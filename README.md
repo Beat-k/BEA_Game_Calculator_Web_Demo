@@ -53,12 +53,20 @@ Each emotion is a computational entity with:
 
 ## 📊 Complete E-motion Spectrum
 
-| Category | States | Examples |
-|----------|--------|----------|
-| Foundation | 8 states | 😐 Neutral, 🤔 Awareness, 😊 Calmness, 🧐 Focus |
-| Active | 8 states | 🤯 Engagement, 😢 Determination, 😡 Pressure, 😨 Adrenaline |
-| Emergence | 8 states | 🌟 Vision, 🧘‍♂️ Insight, 🕊️ Intuition, 💡 Alignment |
-| Ascension | 8 states | ☯️ Unity, 🤗 Bliss, 🌌 Transcendence, ✨ Illumination |
+| Category | Count | Examples |
+|----------|-------|----------|
+| Baseline | 1 state | 😐 Neutral |
+| Cognitive | 5 states | 🤔 Curiosity, 🧐 Interest, 🤯 Confusion, 🧘‍♂️ Contemplation, 💡 Clarity |
+| Peaceful | 5 states | 😊 Calmness, 😌 Relief, 🕊️ Serenity, ☯️ Harmony, ☮️ Peace |
+| Energetic | 2 states | 🎉 Excitement, 🎨 Inspiration |
+| Empowered | 4 states | 💪 Strength, 🛡️ Valor, ⚔️ Resolve, 👑 Confidence |
+| Transcendent | 4 states | ✨ Wonder, 🌟 Bliss, 🌅 Enlightenment, 🔮 Transcendence |
+| Positive | 3 states | 😄 Joy, 🙏 Gratitude, 🌱 Hope |
+| Connected | 2 states | 🤗 Empathy, ❤️ Love |
+| Melancholic | 2 states | 😢 Sadness, 🌧️ Melancholy |
+| Intense | 2 states | 😡 Anger, 🌹 Passion |
+| Protective | 1 state | 😰 Fear |
+| Tense | 1 state | 😵 Anxiety |
 
 ## 🎮 Example Calculations
 
